@@ -30,6 +30,8 @@ app.use((req, res, next) => {
 //   res.render('maintenance.hbs');
 // });
 
+// ;)
+
 // Setup static files content
 app.use(express.static(__dirname + "/public"));
 
